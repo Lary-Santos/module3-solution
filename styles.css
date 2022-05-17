@@ -92,7 +92,7 @@ section{
 /**End Small Devices**/
 
 /** Small devices**/
-@media(max-width:991px){
+@media min-width:768px) and (max-width:991px){
 
     .col-xs-11{
         width: 91%;
@@ -107,7 +107,7 @@ section{
 /**End Small Devices**/
 
 /** XXS Small devices**/
-@media(max-width:991px){
+@media(max-width:767px){
 
     .col-xxs-11{
         width: 91%;
