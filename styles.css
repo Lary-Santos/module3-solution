@@ -35,7 +35,6 @@ h2{
 section{
     width: 100%;
     height: 150px;
-    text-align: center;
 }
 .style-div{
     background-color: #BFBAB9;
@@ -96,6 +95,21 @@ section{
 @media(max-width:991px){
 
     .col-xs-11{
+        width: 91%;
+    }
+    /** Hearder **/
+    .color-ft{
+        color: white;
+        display:none;
+    }
+    /** End Header **/
+}
+/**End Small Devices**/
+
+/** XXS Small devices**/
+@media(max-width:991px){
+
+    .col-xxs-11{
         width: 91%;
     }
     /** Hearder **/
